@@ -15,9 +15,9 @@
 
             <hr>
             <br>
-
+            {% if not user.is_authenticated %}
             <a class="btn btn-primary" type="button" href=" {% url 'register' %}">Create your account &nbsp; <i class="fas fa-user"></i> </a> 
-
+            {% endif %}
         </div> 
     </body>
 
