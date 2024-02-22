@@ -1,0 +1,25 @@
+{% extends 'webapp/base.html' %}
+
+<!-- Block content inputs the unique contents of the page -->
+{% block content %}
+
+    <body>
+        <br>
+        <br>
+        <div class="text-center">
+
+            <h3> ProjectX Management at !</h3>
+            <br>
+
+            <h5>header 5 text over here</h5>
+
+            <hr>
+            <br>
+
+            <a class="btn btn-primary" type="button" href=" {% url 'register' %}">Create your account &nbsp; <i class="fas fa-user"></i> </a> 
+
+        </div> 
+    </body>
+
+{% endblock %}
+
